@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "c4m8ENO8H8g7Kye/QHswq63DuOr84yF1cZ4o0w4YqlFgIpSf7WU029RN/fVOIXXjwSE53TdeLBHnZu/uVUQQUQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrador\\source\\repos\\TesteSelecaoAPI\\WebApplication1\\WebApplication1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.5\\microsoft.extensions.dependencyinjection.abstractions.3.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

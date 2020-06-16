@@ -1,0 +1,140 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "TesteSelecao.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TesteSelecao.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TesteSelecao.Application.dll": {}
+        }
+      },
+      "TesteSelecao.CrossCuting/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.5"
+        },
+        "compile": {
+          "bin/placeholder/TesteSelecao.CrossCuting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TesteSelecao.CrossCuting.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.5": {
+      "sha512": "2VSCj2TZPMdeEi279Lawi6qJQu4+sEWizSOYrhY6hapyS1jxn1jVUZT1Ugv68bya+x8+3lD4+RqhUZql9PhISQ==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.5.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "TesteSelecao.Application/1.0.0": {
+      "type": "project",
+      "path": "../TesteSelecao.Application/TesteSelecao.Application.csproj",
+      "msbuildProject": "../TesteSelecao.Application/TesteSelecao.Application.csproj"
+    },
+    "TesteSelecao.CrossCuting/1.0.0": {
+      "type": "project",
+      "path": "../TesteSelecao.CrossCuting/TesteSelecao.CrossCuting.csproj",
+      "msbuildProject": "../TesteSelecao.CrossCuting/TesteSelecao.CrossCuting.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "TesteSelecao.Application >= 1.0.0",
+      "TesteSelecao.CrossCuting >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Administrador\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\TesteSelecaoAPI\\WebApplication1\\WebApplication1.csproj",
+      "projectName": "WebApplication1",
+      "projectPath": "C:\\Users\\Administrador\\source\\repos\\TesteSelecaoAPI\\WebApplication1\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrador\\source\\repos\\TesteSelecaoAPI\\WebApplication1\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\Administrador\\source\\repos\\TesteSelecaoAPI\\TesteSelecao.Application\\TesteSelecao.Application.csproj": {
+              "projectPath": "C:\\Users\\Administrador\\source\\repos\\TesteSelecaoAPI\\TesteSelecao.Application\\TesteSelecao.Application.csproj"
+            },
+            "C:\\Users\\Administrador\\source\\repos\\TesteSelecaoAPI\\TesteSelecao.CrossCuting\\TesteSelecao.CrossCuting.csproj": {
+              "projectPath": "C:\\Users\\Administrador\\source\\repos\\TesteSelecaoAPI\\TesteSelecao.CrossCuting\\TesteSelecao.CrossCuting.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200-preview-014883\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

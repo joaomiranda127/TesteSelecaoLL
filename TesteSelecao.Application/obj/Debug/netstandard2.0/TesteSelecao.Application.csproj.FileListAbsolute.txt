@@ -1,0 +1,8 @@
+C:\Users\Administrador\source\repos\TesteSelecaoAPI\TesteSelecao.Application\bin\Debug\netstandard2.0\TesteSelecao.Application.deps.json
+C:\Users\Administrador\source\repos\TesteSelecaoAPI\TesteSelecao.Application\bin\Debug\netstandard2.0\TesteSelecao.Application.dll
+C:\Users\Administrador\source\repos\TesteSelecaoAPI\TesteSelecao.Application\bin\Debug\netstandard2.0\TesteSelecao.Application.pdb
+C:\Users\Administrador\source\repos\TesteSelecaoAPI\TesteSelecao.Application\obj\Debug\netstandard2.0\TesteSelecao.Application.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\TesteSelecaoAPI\TesteSelecao.Application\obj\Debug\netstandard2.0\TesteSelecao.Application.AssemblyInfoInputs.cache
+C:\Users\Administrador\source\repos\TesteSelecaoAPI\TesteSelecao.Application\obj\Debug\netstandard2.0\TesteSelecao.Application.AssemblyInfo.cs
+C:\Users\Administrador\source\repos\TesteSelecaoAPI\TesteSelecao.Application\obj\Debug\netstandard2.0\TesteSelecao.Application.dll
+C:\Users\Administrador\source\repos\TesteSelecaoAPI\TesteSelecao.Application\obj\Debug\netstandard2.0\TesteSelecao.Application.pdb

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TesteSelecao.Application\TesteSelecao.Application.csproj" />
+    <ProjectReference Include="..\TesteSelecao.CrossCuting\TesteSelecao.CrossCuting.csproj" />
+  </ItemGroup>
+
+
+</Project>
